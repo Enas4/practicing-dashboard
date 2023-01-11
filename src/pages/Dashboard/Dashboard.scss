@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.dashboard_layout {
+  display: $display;
+  height: 100vh;
+
+  .outlet {
+    font-size: 2.5rem;
+    color: darkcyan;
+    flex-grow: 1;
+    padding: 1rem 0 0 1.5rem;
+    background-color: rgb(252, 237, 218);
+  }
+}

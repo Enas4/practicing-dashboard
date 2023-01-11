@@ -1,0 +1,18 @@
+$fontsize: 1.5rem;
+
+ul {
+  list-style: none;
+}
+li {
+  font-size: 2rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(133, 129, 129);
+}
+.posts a {
+  font-size: $fontsize;
+  text-decoration: none;
+  color: rgb(24, 104, 104);
+}
+p {
+  font-size: $fontsize;
+}

@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+@import "../../styles/mixin";
+
+.signup {
+  @include display(center);
+  background-color: rgb(245, 217, 181);
+  height: 100vh;
+
+  form {
+    border: 1px solid $light-maroon;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    display: $display;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: $font-size2rem;
+
+    form div {
+      padding: $font-size2rem;
+    }
+
+    label {
+      font-size: 1.6rem;
+      color: rgb(46, 45, 45);
+    }
+    input {
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: 1px solid darkgray;
+      border-radius: 5px;
+    }
+  }
+}

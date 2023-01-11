@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+@import "../../styles/mixin";
+
+.navbar {
+  @include display(space-between);
+  padding: $font-size2rem;
+  background-color: rgb(226, 225, 225);
+}
+.navbar p {
+  color: $light-maroon;
+  font-size: $font-size2rem;
+}
+
+.navbar button {
+  border: 1px solid $light-maroon;
+  background-color: rgb(255, 246, 234);
+  border-radius: $font-size2rem;
+  font-size: $font-size2rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}

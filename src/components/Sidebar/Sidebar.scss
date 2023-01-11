@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.sidebar {
+  text-align: center;
+  overflow: hidden;
+  background-color: antiquewhite;
+  height: 100vh;
+  border-right: $bordersize;
+
+  .list {
+    padding: 1rem 10rem;
+    border-bottom: $bordersize;
+    cursor: pointer;
+
+    transition: 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  a {
+    text-decoration: none;
+    font-size: $font-size2rem;
+    color: $light-maroon;
+  }
+}
